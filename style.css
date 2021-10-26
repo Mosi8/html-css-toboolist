@@ -30,7 +30,7 @@ header{
    width: 80%;
    background-color: white;
    border-radius: 5px;
-   margin: 50px auto; 
+   margin: 50px auto 2px auto; 
    line-height: 50px;
    vertical-align: middle;
    padding-left: 5%;
@@ -57,3 +57,98 @@ header{
     border: 1px solid rgba(128,128,128,0.3);
     border-radius: 5px;
 }
+
+#elenchi{
+    height: auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto; 
+    line-height: auto;
+    vertical-align: middle;
+    padding: 2% 5%;
+}
+
+.inizio-elenco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.spunta{
+    height: 10px;
+    width: 10px;
+    color:green;
+    padding:1px 3px;  
+    border-style: solid;
+    border-color: green;
+    border-radius: 50%;
+    border-width: 1px; 
+    margin-right: 6px;
+    margin-left: 4px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 10px;
+}
+ section p{
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 30px;
+ }
+ 
+ .ics{
+    height: 10px;
+    width: 10px;
+    color:red;
+    padding:1px 3px;  
+    border-style: solid;
+    border-color: red;
+    border-radius: 50%;
+    border-width: 1px; 
+    margin-right: 6px;
+    margin-left: 4px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 10px;
+ }
+
+ .edit, .q1, .recru, .mobile, .web, .sales{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 8px;
+     border: 1px solid;
+     border-radius: 8px;
+     padding: 3px 6px;
+     color: white
+ }
+
+ .q1{
+     border-color: rgb(145,106,228);
+     background-color: rgb(145,106,228);
+ }
+
+ .recru{
+    border-color: rgb(104,194,169);
+    background-color: rgb(104,194,169);
+}
+
+.mobile{
+    border-color: rgb(240,158,53);
+    background-color: rgb(240,158,53);
+}
+
+.web{
+    border-color: rgb(214,91,161);
+    background-color: rgb(214,91,161);
+}
+
+.sales{
+    border-color: rgb(177,204,40);
+    background-color: rgb(177,204,40);
+}
+
+.edit{
+    border-color: rgb(75,171,241);
+    background-color: rgb(75,171,241);
+}
+
+ 
